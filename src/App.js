@@ -1,12 +1,26 @@
 import React, { Component } from 'react';
-import './App.css';
+import TeamSelector from './TeamSelector'
+import legends from './legends.json';
 
 class App extends Component {
+  state = {
+    teams: legends,
+    selectedTeam: ""
+  }
+
+  _selectionHandler = (event) => {
+    this.setState({ selectedTeam: event.target.value })
+    // console.log()
+  }
+
   render() {
     return (
-      <div className="App">
-        <h1>Hello World</h1>
-      </div>
+      <React.Fragment>
+        <TeamSelector 
+          teams = {this.state.teams}
+          selectionHandler = {this._selectionHandler}
+        />
+      </React.Fragment>
     );
   }
 }
