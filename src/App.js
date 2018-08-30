@@ -1,25 +1,31 @@
 import React, { Component } from 'react';
 import TeamSelector from './TeamSelector'
+import TeamSelection from './TeamSelection';
 import legends from './legends.json';
 
 class App extends Component {
   state = {
     teams: legends,
-    selectedTeam: ""
+    selectedTeam: "AC Milan"
   }
 
   _selectionHandler = (event) => {
     this.setState({ selectedTeam: event.target.value })
-    // console.log()
   }
 
   render() {
+    const selection = this.state.teams.find(team => team.name === this.state.selectedTeam);
+    console.log(selection);
     return (
       <React.Fragment>
         <TeamSelector 
           teams = {this.state.teams}
           selectionHandler = {this._selectionHandler}
         />
+        <TeamSelection
+          selection = {selection}
+        />
+
       </React.Fragment>
     );
   }
