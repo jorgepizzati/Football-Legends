@@ -15,7 +15,6 @@ class App extends Component {
 
   render() {
     const selection = this.state.teams.find(team => team.name === this.state.selectedTeam);
-    console.log(selection);
     return (
       <React.Fragment>
         <TeamSelector 

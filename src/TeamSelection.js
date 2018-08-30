@@ -3,7 +3,8 @@ import React from 'react';
 class TeamSelection extends React.Component {
     
     render(){
-        const { name, country, crest, foundation, national, international } = this.props.selection;
+        const { name, country, crest, foundation, national, international, players } = this.props.selection;
+        console.log(players);
         return(
             <main className="flex">
                 <div className="col-01">
@@ -19,6 +20,7 @@ class TeamSelection extends React.Component {
                     </ul>
                 </div>
                 <div className="col-02 flex">
+                    {/* {} */}
                     <div className="player">
                         
                     </div>
