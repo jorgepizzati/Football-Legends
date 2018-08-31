@@ -4,7 +4,7 @@ class TeamSelection extends React.Component {
     
     render(){
         const { name, country, crest, foundation, national, international, players } = this.props.selection;
-        console.log(players);
+        // console.log(players);
         return(
             <main className="flex">
                 <div className="col-01">
@@ -20,10 +20,21 @@ class TeamSelection extends React.Component {
                     </ul>
                 </div>
                 <div className="col-02 flex">
-                    {/* {} */}
-                    <div className="player">
-                        
-                    </div>
+                    <ul className="player-box flex">
+                        {players.map((player, index) => 
+                            <li className="player" key={`${index}-${player.name}`}>
+                                <h2>{player.name}</h2>
+                                <div className="thumbnail-box"><img src={player.image} alt={player.name}/></div>
+                                <ul>
+                                    <li><strong>Born: </strong>{player.birthdate}</li>
+                                    <li><strong>Goals: </strong>{player.goals}</li>
+                                    <li><strong>Height: </strong>{player.height}</li>
+                                    <li><strong>Nickname: </strong>{player.nickname}</li>
+                                    <li><strong>Position: </strong>{player.position}</li>
+                                </ul>
+                            </li>
+                        )}
+                    </ul>
                 </div> 
             </main>
         )
@@ -34,9 +45,11 @@ class TeamSelection extends React.Component {
 export default TeamSelection;
 
 
-// "country" : "Italy",
-// "crest" : "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/130px-Logo_of_AC_Milan.svg.png",
-// "foundation" : 1899,
-// "international" : 7,
-// "name" : "AC Milan",
-// "national" : 18,
+// "birthdate" : "06/26/1977",
+//       "country" : "Spain",
+//       "goals" : 404,
+//       "height" : "1.80m",
+//       "image" : "http://www3.pictures.gi.zimbio.com/Raul+Gonzalez+UD+Almeria+v+Real+Madrid+La+LIDcg3ZgIpCl.jpg",
+//       "name" : "Raúl González",
+//       "nickname" : "El Ángel de Madrid",
+//       "position" : "Forward"

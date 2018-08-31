@@ -7,25 +7,25 @@
     "name" : "AC Milan",
     "national" : 18,
     "players" : [ {
-      "birthdate" : "06/26/1968",
+      "birthdate" : "June 26th, 1968 (Italy)",
       "country" : "Italy",
       "goals" : 29,
       "height" : "1.86m",
       "image" : "https://assets.catawiki.nl/assets/2018/2/20/4/a/d/4ad458a7-ec61-47f8-bf7e-84489d69cd25.jpg",
-      "name" : "Paolo Cesare Maldini",
+      "name" : "Paolo Maldini",
       "nickname" : "Il Capitano",
       "position" : "Defender"
     }, {
-      "birthdate" : "01/09/1978",
+      "birthdate" : "January 1st, 1978 (Italy)",
       "country" : "Italy",
       "goals" : 10,
       "height" : "1.77m",
       "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Gennaro_Gattuso_2008.jpg/252px-Gennaro_Gattuso_2008.jpg",
-      "name" : "Gennaro Ivan Gattuso",
+      "name" : "Gennaro Gattuso",
       "nickname" : "Rhino",
       "position" : "Midfielder"
     }, {
-      "birthdate" : "08/09/1973",
+      "birthdate" : "August 9th, 1973 (Italy)",
       "country" : "Italy",
       "goals" : 73,
       "height" : "1.81m",
@@ -43,17 +43,15 @@
     "name" : "FC Barcelona",
     "national" : 25,
     "players" : [ {
-      "birthdate" : "04/13/1978",
-      "country" : "Spain",
+      "birthdate" : "April 13th, 1978 (Spain)",
       "goals" : 12,
       "height" : "1.78m",
       "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Puyol2011.jpg/800px-Puyol2011.jpg",
-      "name" : "Carles Puyol Saforcada",
+      "name" : "Carles Puyol",
       "nickname" : "Tarzan",
       "position" : "Defender"
     }, {
-      "birthdate" : "03/21/1980",
-      "country" : "Brazil",
+      "birthdate" : "March 21st, 1980 (Brazil)",
       "goals" : 70,
       "height" : "1.81m",
       "image" : "https://i.pinimg.com/originals/85/0b/f9/850bf97a047ff9c8e80c3f5075757258.jpg",
@@ -61,12 +59,11 @@
       "nickname" : "Dinho",
       "position" : "Midfielder"
     }, {
-      "birthdate" : "05/11/1984",
-      "country" : "Spain",
+      "birthdate" : "May 11th, 1984 (Spain)",
       "goals" : 35,
       "height" : "1.71m",
       "image" : "https://www.thesun.co.uk/wp-content/uploads/2017/08/nintchdbpict000345805893-e1503221278596.jpg?strip=all&w=827",
-      "name" : "Andrés Iniesta Luján",
+      "name" : "Andrés Iniesta",
       "nickname" : "Don Andrés",
       "position" : "Midfielder"
     } ]
@@ -79,17 +76,15 @@
     "name" : "FC Inter Milan",
     "national" : 18,
     "players" : [ {
-      "birthdate" : "08/10/1973",
-      "country" : "Argentina",
+      "birthdate" : "August 10th, 1973 (Argentina)",
       "goals" : 12,
       "height" : "1.78m",
       "image" : "https://cdn.images.dailystar.co.uk/dynamic/58/photos/537000/80537.jpg",
-      "name" : "Javier Adelmar Zanetti",
+      "name" : "Javier Zanetti",
       "nickname" : "Pupi",
       "position" : "Defender"
     }, {
-      "birthdate" : "08/18/1980",
-      "country" : "Argentina",
+      "birthdate" : "August 18th, 1980 (Argentina)",
       "goals" : 41,
       "height" : "1.77",
       "image" : "http://www4.pictures.gi.zimbio.com/Esteban+Cambiasso+Inter+Milan+v+Anorthosis+uaMavHH-3eal.jpg",
@@ -97,8 +92,7 @@
       "nickname" : "Cuchu",
       "position" : "Midfielder"
     }, {
-      "birthdate" : "07/11/1978",
-      "country" : "Serbia",
+      "birthdate" : "July 11th, 1978 (Serbia)",
       "goals" : 29,
       "height" : "1.81m",
       "image" : "http://www1.pictures.gi.zimbio.com/Inter+Milan+v+Manchester+United+UEFA+Champions+slnVQ5oTmDlx.jpg",
@@ -115,26 +109,23 @@
     "name" : "Real Madrid CF",
     "national" : 33,
     "players" : [ {
-      "birthdate" : "06/26/1977",
-      "country" : "Spain",
+      "birthdate" : "June 26th, 1977 (Spain)",
       "goals" : 404,
       "height" : "1.80m",
       "image" : "http://www3.pictures.gi.zimbio.com/Raul+Gonzalez+UD+Almeria+v+Real+Madrid+La+LIDcg3ZgIpCl.jpg",
-      "name" : "Raúl González Blanco",
+      "name" : "Raúl González",
       "nickname" : "El Ángel de Madrid",
       "position" : "Forward"
     }, {
-      "birthdate" : "06/23/1976",
-      "country" : "France",
+      "birthdate" : "June 23rd, 1972 (France)",
       "goals" : 37,
       "height" : "1.85m",
       "image" : "https://d.ibtimes.co.uk/en/full/62780/zinedine-zidane.jpg?w=720&e=6505c137daf71a8959d84d87a055d546",
-      "name" : "Zinedine Yazid Zidane",
+      "name" : "Zinedine Zidane",
       "nickname" : "Zizou",
       "position" : "Midfielder"
     }, {
-      "birthdate" : "05/20/1981",
-      "country" : "Spain",
+      "birthdate" : "May 20th, 1981 (Spain)",
       "goals" : 0,
       "height" : "1.85m",
       "image" : "http://www2.pictures.zimbio.com/gi/Iker+Casillas+Real+Madrid+CF+v+Galatasaray+Ew2F3L-h_5Pl.jpg",
